@@ -29,37 +29,86 @@
 		<div>
 			<div class="body">
 				<div id="adbox">
-					<div id="slider">
-						<figure>
-							<img src="images/home1.jpg" alt="">
-							<img src="images/home2.jpg" alt="">
-							<img src="images/home3.jpg" alt="">
-							<img src="images/home1.jpg" alt="">
-							<img src="images/home2.jpg" alt="">
-						</figure>
-					</div>
-					<div class="details">
-						<h1><br>"SOLUTIONS WITH A SUSTAINABLE ARCHITECTURE FOCUS"</h1>
+					<div id="slideshow-wrap">
+						<input type="radio" id="button-1" name="controls" checked="checked"/><label for="button-1"></label>
+						<input type="radio" id="button-2" name="controls"/><label for="button-2"></label>
+						<input type="radio" id="button-3" name="controls"/><label for="button-3"></label>
+						<input type="radio" id="button-4" name="controls"/><label for="button-4"></label>
+						<input type="radio" id="button-5" name="controls"/><label for="button-5"></label>
+						<label for="button-1" class="arrows" id="arrow-1">></label>
+						<label for="button-2" class="arrows" id="arrow-2">></label>
+						<label for="button-3" class="arrows" id="arrow-3">></label>
+						<label for="button-4" class="arrows" id="arrow-4">></label>
+						<label for="button-5" class="arrows" id="arrow-5">></label>
+						<div id="slideshow-inner">
+							<ul>
+								<li id="slide1">
+									<img src="images/pic1h.jpg" />
+									<div class="description">
+										<input type="checkbox" id="show-description-1"/>
+										<label for="show-description-1" class="show-description-label">I</label>
+										<div class="description-text">
+											<h2>Solutions with a Sustainable Architecture Focus</h2>
+											<!--<p>Solutions with a Sustainable Architecture Focus.</p>-->
+										</div>
+									</div>
+								</li>
+								<li id="slide2">
+									<img src="images/pic2h.jpg" />
+									<div class="description">
+										<input type="checkbox" id="show-description-2"/>
+										<label for="show-description-2" class="show-description-label">I</label>
+										<div class="description-text">
+											<h2>Solutions with a Sustainable Architecture Focus</h2>
+											<!--<p>Solutions with a Sustainable Architecture Focus.</p>-->
+										</div>
+									</div>
+								</li>
+								<li id="slide3">
+									<img src="images/pic3h.jpg" />
+									<div class="description">
+										<input type="checkbox" id="show-description-3"/>
+										<label for="show-description-3" class="show-description-label">I</label>
+										<div class="description-text">
+											<h2>Solutions with a Sustainable Architecture Focus</h2>
+											<!--<p>Solutions with a Sustainable Architecture Focus.</p>-->
+										</div>
+									</div>
+								</li>
+								<li id="slide4">
+									<img src="images/pic4h.jpg" />
+									<div class="description">
+										<input type="checkbox" id="show-description-4"/>
+										<label for="show-description-4" class="show-description-label">I</label>
+										<div class="description-text">
+											<h2>Solutions with a Sustainable Architecture Focus</h2>
+											<!--<p>Solutions with a Sustainable Architecture Focus.</p>-->
+										</div>
+									</div>
+								</li>
+								<li id="slide5">
+									<img src="images/pic5h.jpg" />
+									<div class="description">
+										<input type="checkbox" id="show-description-5"/>
+										<label for="show-description-5" class="show-description-label">I</label>
+										<div class="description-text">
+											<h2>Solutions with a Sustainable Architecture Focus</h2>
+											<!--<p>Solutions with a Sustainable Architecture Focus.</p>-->
+										</div>
+									</div>
+								</li>
+							</ul>
+						</div>
 					</div>
 				</div>
 				<ul id="featured">
-					<!--<li>
-						<div><img src="images/home1small.jpg" alt="Img"> </div>
-						<div class="details"><h4>Homes Additions</h4>
-							<p> We can make the house of your dreams a reality. Our goal is quality and satisfaction of our customers.</p>
-						</div>
-					</li>-->
-					<li class="kitchenbaths"><div><img src="images/home3small.jpg" alt="Img"></div>
-						<div class="details">
-							<h4 href="portfolio.html">Home Additions</h4>
-							<!--<p> Years of experience in construction and renovation of bathrooms and kitchens. Aesthetic and quality in each of our work.</p>-->
-						</div>
+					<li class="homeadd">
+						<div class="details" href="portfolio.html"><h4 href="portfolio.html">Home Additions</h4></div>
+						<div><img src="images/pic7h.jpg" alt="Img"></div>
 					</li>
-					<li class="stonework"><div><img src="images/home2small.jpg" alt="Img"></div>
-						<div class="details">
-							<h4 href="portfolio.html">Interior Renovations</h4>
-							<!--<p>Commercial or residential, our experts can meet both functional and aesthetic needs, always thinking about your budget.</p>-->
-						</div>
+					<li class="interior">
+						<div class="details" href="portfolio.html"><h4 href="portfolio.html">Interior Renovations</h4></div>
+						<div><img src="images/pic6h.jpg" alt="Img"></div>
 					</li>
 				</ul>
 				<div class="contact">
@@ -70,8 +119,8 @@
 				</div> 
 				<div class="contact">
 					<p>Social Media:</p>
-					<a href="#" target="_blank"><img src="images/ifbg.png" alt=" "></a>
-					<a href="#" target="_blank"><img src="images/itwg.png" alt=" "></a>
+					<a href="#" target="_blank"><img src="images/fbw.png" alt=" "></a>
+					<a href="#" target="_blank"><img src="images/tww.png" alt=" "></a>
 				</div> 
 			</div>
 		</div>
@@ -81,9 +130,8 @@
 			<div id="links">
 				<ul class="navigation">
 					<li> <a href="index.html">Home</a> </li>
-					<li> <a href="renovations.html">Renovations</a> </li>
-					<li> <a href="interiors.html">Interiors</a> </li>
-					<li> <a href="stonework.html">Stone</a> </li>
+					<li> <a href="portfolio.html">Portfolio</a> </li>
+					<li> <a href="about.html">About</a> </li>
 					<li> <a href="contact.html">Contact</a> </li>
 				</ul>
 				<p id="footnote"> © Copyright 2015. RHR Architect LLC - All Rights Reserved. </p>
