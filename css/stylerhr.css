@@ -19,7 +19,7 @@
 }
 body {
 	background-color: #fff;
-	font-family: "Jura";
+	font-family: "Jurar";
 	margin: 0;
 }
 img {
@@ -144,7 +144,7 @@ img {
 }
 #navigation li a {
 	color: #640120;
-	font-family: 'Juram';
+	font-family: 'Jurar';
 	font-size: 27px;
 	padding: 0 0 0 0;
 	text-decoration: none;
@@ -183,12 +183,11 @@ img {
 	color: #640120;
 	font-family: 'Jural';
 	display: block;
-	font-size: 25px;
+	font-size: 22px;
 	font-weight: normal;
 	line-height: 30px;
 	padding: 0 0 0 0;
-	margin: 1px 0 0 0;
-	/*text-transform: lowercase;*/
+	margin: -17px 0 0 0;
 }
 #contents p {
 	color: #626161;
@@ -199,7 +198,7 @@ img {
 	text-align: justify;
 }
 #contents p1 {
-	color: #626161;
+	color: #000000;
 	font-family:'Jurar';
 	font-size: 16px;
 	line-height: 24px;
@@ -227,7 +226,14 @@ img {
 	border-color: #fff;
 	border-width: 0px;
 	border-style: none solid solid;
-	margin: -10px 0 0;
+	margin: 5px 0 0 15px;
+	position: relative;
+}
+#adbox1 img{
+	height: 410px;
+	width: 470px;
+	border: 1px solid #640120;
+	margin: 0;
 	position: relative;
 }
 #adbox {
@@ -265,7 +271,7 @@ img {
 #adbox1 div.details {
 	height: 425px;
 	width: 425px;
-	padding: 20px 25px 0 0;
+	padding: 10px 25px 0 0;
 	position: absolute;
 	right: 0;
 	top: 0;
@@ -291,6 +297,23 @@ img {
 	padding-right: 10px;
 	font-family:'Jura';
 }
+/* Home Info*/
+#homeinfo {
+	display: inline-block;
+	list-style: none;
+	width: 940px;
+	height: auto;
+	margin: 0;
+}
+#homeinfo h4 {
+	color: #640120;
+	font-family: "Jural";
+	font-size: 20px;
+	font-weight: normal;
+	margin: 30px 60px;
+	text-align: center;
+}
+
 /** Featured **/
 #featured {
 	display: inline-block;
@@ -343,11 +366,10 @@ img {
 }
 #featured div.details h4 {
 	color: #fff;
-	font-family: 'Juram';
+	font-family: 'Jurar';
 	font-weight: normal;
 	font-size: 20px;
 	margin: 0;
-	text-transform: uppercase;
 }
 #featured div.details p {
 	color: #fff;
@@ -370,6 +392,9 @@ div.contact {
 	background-color: #640120;
 }
 div.contact img {
+	margin: 0 -35px 25px 45px;
+}
+div.contact img2 {
 	margin: 0 0 0 0;
 }
 #contents div.contact p {
@@ -383,14 +408,13 @@ div.contact img {
 }
 #contents div.details h1 {
 	color: #640120;
-	font-family: 'Jural';
-	font-size: 30px;
+	font-family: 'Jurar';
+	font-size: 20px;
 	font-weight: normal;
 	line-height: 24px;
-	margin: 80px 0 0 0;
+	margin: 0 0 10px 0;
 	padding-left: 0;
 	text-transform: uppercase;
-	text-shadow: 2px 2px #8A8787;
 }
 #contents div.details h2 {
 	color: #640120;
@@ -487,12 +511,13 @@ div.blog a.more:hover {
 /** Main **/
 #main {
 	width: 448px;
+	margin: -10px 0 0 -4px;
 }
 /** Sidebar **/
 #sidebar {
 	float: right;
 	background-position: 0 0;
-	width: 400px;
+	width: 402px;
 	/*margin-left: 20px;*/
 	padding: 0 0 0 0;
 	margin: 0 0 0 0; 
@@ -507,15 +532,21 @@ div.blog a.more:hover {
 }
 #sidebar div.contact {
 	background: none;
-	height: auto;
+	height: 450px;
 	width: 392px;
 	padding: 20px 20px 20px;
+}
+#sidebar div.contact a{
+	margin: 0 0 0 -80px;
+}
+#sidebar div.contact b{
+	margin: 0 40px 0 -35px;
 }
 #sidebar div.contact p {
 	text-align: center;
 }
 #contents #about, #contents #contact {
-	min-height: 510px;
+	min-height: 500px;
 	width: 900px;
 	padding: 10px 40px 0 14px;
 }
@@ -850,11 +881,11 @@ div.blog a.more:hover {
 	margin: -3px 0 3px;
 }
 #links {
-	background: url(../images/separator-dark.png) repeat-x left bottom;
+	background: url(../images/separator-darkline.png) repeat-x left bottom;
 	color: #fff;
 	display: inline-block;
 	width: 940px;
-	padding: 0 0 20px;
+	padding: 0 0 5px;
 }
 #links h4 {
 	color: #241b18;
