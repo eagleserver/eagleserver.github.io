@@ -308,9 +308,9 @@ img {
 #contents div.body h1 {
 	color: #640120;
 	font-family: "Juram";
-	font-size: 34px;
+	font-size: 27px;
 	font-weight: normal;
-	margin: 0 0 18px;
+	margin: 0 0 10px 0;
 	text-transform: uppercase;
 }
 #contents div.body h2 {
@@ -360,7 +360,7 @@ img {
 	border-color: #fff;
 	border-width: 0px;
 	border-style: none solid solid;
-	margin: 0 0 0 15px;
+	margin: 0 0 0 20px;
 	position: relative;
 	/*-webkit-box-shadow: 0px 0px 5px rgba(0,0,0,.8);
 	-moz-box-shadow: 0px 0px 5px rgba(0,0,0,.8);
@@ -373,7 +373,7 @@ img {
 	position: relative;
 	-webkit-box-shadow: 0px 0px 5px rgba(0,0,0,.8);
 	-moz-box-shadow: 0px 0px 5px rgba(0,0,0,.8);
-	box-shadow: 0px 0px 5px rgba(0,0,0,.8);
+	box-shadow: 0px 0px 20px rgba(0,0,0,.8);
 	border-radius: 5px;
 }
 #adbox {
@@ -636,9 +636,9 @@ div.contact img2 {
 	font-size: 15px;
 	padding-bottom: 0;
 	font-weight: normal;
-	text-transform: uppercase;
-	margin: 6px 0 0 0;
-	text-align: center;
+	/*text-transform: uppercase;*/
+	margin: 0 0 0 130px;
+	/*text-align: center;*/
 }
 #contents div.details h1 {
 	color: #640120;
@@ -668,7 +668,7 @@ div.contact p b {
 	font-weight: normal;
 	line-height: 30px;
 	padding: 0;
-	text-transform: lowercase;
+	/*text-transform: lowercase;*/
 	text-align: center;
 }
 div.contact p b.email {
@@ -713,7 +713,27 @@ div.contact p b.email {
 	box-shadow: 0px 0px 5px rgba(0,0,0,.8);
 	border-radius: 5px;
 }
-#contents .bodygal .bigwindow {
+#contents .bodygal .thumbnails {
+	display: flex;
+	margin: 20px 0 10px 20px;
+	width: 900px;
+	height: 160px;
+	overflow-x: scroll;
+	overflow-y: hidden;
+	-webkit-box-shadow: 0px 0px 5px rgba(0,0,0,.8);
+	-moz-box-shadow: 0px 0px 5px rgba(0,0,0,.8);
+	box-shadow: 0px 0px 5px rgba(0,0,0,.8);
+	border-radius: 5px;
+}
+#contents .bodygal .thumbnails img {
+	height: 130px;
+	width: 230px;
+	border: 1px solid #babdb6;
+	margin: 5px 0 0 5px;
+	padding: 0;
+	border-radius: 3px;
+}
+#contents .bodygal .preview {
 	width: 900px;
 	height: 450px;
 	overflow: auto;
@@ -723,10 +743,30 @@ div.contact p b.email {
 	border-radius: 5px;
 	margin: 0 0 0 20px;
 }
+/* Nueva galería*/
+<style type="text/css"> .bodygal .thumbnails img {
+		height: 200px;
+		width: 300px;
+		border: 1px solid #babdb6;
+		margin: 5px 0 0 5px;
+		padding: 0;
+		border-radius: 3px;
+	}
+
+	.thumbnails img:hover {
+		border: 1px solid #babdb6;
+		cursor:pointer;
+	}
+
+	.preview img {
+		width: 900px;
+		height: 450px;
+	}
+</style>
 
 /* ------------------------------------------------------- */
 /* Image Gallery with zoom on cursor touch */
-<style type="text/css"> gallerycontainer{
+/*<style type="text/css"> gallerycontainer{
 	position: absolute;
 	height: auto;
 	margin: 0;
@@ -748,7 +788,7 @@ div.contact p b.email {
 	border: 1px solid gray;
 }
 
-.thumbnail span{ /* Bigger Image*/
+.thumbnail span{ 
 	position: absolute;
 	background-color: transparent;
 	padding: 0 0 0 0;
@@ -759,18 +799,17 @@ div.contact p b.email {
 	text-decoration: none;
 }
 
-.thumbnail span img{ /*Bigger Image*/
+.thumbnail span img{ 
 	border-width: 0;
 	padding: 0;
 }
 
-.thumbnail:hover span{ /*Bigger Image*/
+.thumbnail:hover span{ 
 	visibility: visible;
 	top: 412px;
 	left: 227px; 
 	z-index: 50;
-}
-
+}*/
 #contents div.blog > div p {
 	color: #2e3436;
 	font-family: 'Jural';
@@ -798,25 +837,32 @@ div.blog a.more:hover {
 }
 /** Sidebar **/
 #sidebar {
-	float: right;
-	background-position: 0 0;
-	width: 402px;
-	/*margin-left: 20px;*/
+	float: left;
+	width: 940px;
 	padding: 0 0 0 0;
 	margin: 0 0 0 0; 
 }
 #sidebar div.body {
 	background-position: 0 -7px;
 	min-height: 100px;
-	width: 432px;
-	padding: 0 0 0 0;
+	width: 940px;
+	padding: 10px 0 0 32px;
 	text-align: center;
+}
+#sidebar div.body img{
+	width: 940px;
+	height: 336px;
+	padding: 0 0 0 0;
+	-webkit-box-shadow: 0px 0px 0px rgba(0,0,0,.8);
+	-moz-box-shadow: 0px 0px 0px rgba(0,0,0,.8);
+	box-shadow: 0px 0px 3px rgba(0,0,0,.8);
+	border-radius: 3px;
 }
 #sidebar div.contact {
 	background: none;
 	height: auto;
-	width: 392px;
-	padding: 75px 98px;
+	width: 940px;
+	padding: 15px 0 0 0;
 	-webkit-box-shadow: 0px 0px 0px rgba(0,0,0,.8);
 	-moz-box-shadow: 0px 0px 0px rgba(0,0,0,.8);
 	box-shadow: 0px 0px 0px rgba(0,0,0,.8);
@@ -836,10 +882,18 @@ div.blog a.more:hover {
 	text-transform: uppercase;
 	margin: 10px 0 20px 0;
 }
+#sidebar div.contact h2 {
+	color: #640120;
+	font-family: 'Jural';
+	display: block;
+	font-size: 20px;
+	font-weight: normal;
+	line-height: 25px;
+	padding: 0;
+	margin: 0;
+}
 #contents #about, #contents #contact {
-	background: url(../images/contact.png) no-repeat left top;
-	/*background-position: 30px 20px;*/
-	height: 440px;
+	height: 500px;
 	width: 940px;
 	padding: 0;
 	/*-webkit-box-shadow: 0px 0px 5px rgba(0,0,0,.8);
@@ -1422,10 +1476,46 @@ div#slidermr figure {
 	position: relative;
 }
 
-#slideshow-inner>ul>li>img {
+/*#slideshow-inner>ul>li>img {
 	margin: auto;
 	height: 100%;
+	-webkit-transition: opacity 1s ease-in-out;
+	-moz-transition: opacity 1s ease-in-out;
+	-o-transition: opacity 1s ease-in-out;
+	transition: opacity 1s ease-in-out;
+	position: absolute;
+	animation-name: slideleft;
+	animation-timing-function: ease-in-out;
+	animation-iteration-count: infinite;
+	animation-duration: 6s;
+}*/
+/*#slideshow-inner>ul>li>img.top:hover {
+	opacity:0;
+}*/
+/*#slideshow-inner>ul>li>img.top {
+	animation-name: slideleft;
+	animation-timing-function: ease-in-out;
+	animation-iteration-count: infinite;
+	animation-duration: 6s;
+	animation-direction: alternate;
+}*/
+/*SLider automatico*/
+/*@keyframes slideleft {
+		0% { left: 0%; }
+		20% { left: 0%; }
+		25% { left: -100%; }
+		45% { left: -100%; }
+		50% { left: -200%; }
+		70% { left: -200%; }
+		75% { left: -300%; }
+		95% { left: -300%; }
+		100% { left: -400%; }
 }
+#slideshow-inner>ul>li>img:nth-of-type(1) { animation-delay: 6s;}
+#slideshow-inner>ul>li>img:nth-of-type(2) { animation-delay: 6s;}
+#slideshow-inner>ul>li>img:nth-of-type(3) { animation-delay: 6s;}
+#slideshow-inner>ul>li>img:nth-of-type(4) { animation-delay: 6s;}
+#slideshow-inner>ul>li>img:nth-of-type(5) { animation-delay: 6s;}*/
 
 #slideshow-wrap input[type=radio] {
     position: absolute;
