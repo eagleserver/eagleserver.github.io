@@ -162,7 +162,7 @@ img {
 
 #primary_nav_wrap ul li.current-menu-item a{
 	/*background:#fff;*/
-	color: rgba(100, 1, 32, 0.57);
+	color: #85726c;
 }
 
 #primary_nav_wrap ul li a:hover {
@@ -223,7 +223,7 @@ img {
 	font-size:22px;
 	padding:0 15px;
 	font-family:'Juram';
-	font-weight: bold;
+	font-weight: normal;
 }
 
 #primary_nav_wrap ul li {
@@ -641,7 +641,7 @@ div.contact img2 {
 }
 #contents div.details h1 {
 	color: #640120;
-	font-family: 'Jurar';
+	font-family: 'Juram';
 	font-size: 20px;
 	font-weight: normal;
 	line-height: 24px;
@@ -651,7 +651,7 @@ div.contact img2 {
 }
 #contents div.details h2 {
 	color: #640120;
-	font-family: 'Jural';
+	font-family: 'Juram';
 	font-size: 30px;
 	font-weight: normal;
 	line-height: 24px;
@@ -661,13 +661,11 @@ div.contact img2 {
 }
 div.contact p b {
 	color: #640120;
-	font-family: 'Jural';
-	/*display: block;*/
-	font-size: 20px;
+	font-family: 'Juram';
+	font-size: 18px;
 	font-weight: normal;
 	line-height: 30px;
 	padding: 0;
-	/*text-transform: lowercase;*/
 	text-align: center;
 }
 div.contact p b.email {
@@ -682,7 +680,7 @@ div.contact p b.email {
 }
 #contents .bodygal h4{
 	color: #640120;
-	font-family: 'Jural';
+	font-family: 'Juram';
 	font-size: 25px;
 	font-weight: normal;
 	line-height: 24px;
@@ -692,7 +690,7 @@ div.contact p b.email {
 }
 #contents .bodygal h3{
 	color: #000000;
-	font-family: 'Jurar';
+	font-family: 'Jural';
 	font-size: 15px;
 	font-weight: normal;
 	line-height: 24px;
