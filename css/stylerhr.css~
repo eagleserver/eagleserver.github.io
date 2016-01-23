@@ -112,7 +112,7 @@ img {
 /*------------------------------ HEADER ------------------------------*/
 #header {
 	background-color: #fff;
-	background: url(../images/headbg.png)repeat left top;
+	background: url(../images/headbg2.png)repeat left top;
 	height: 150px;
 	/*border-bottom: 1px solid #640120;*/
 	padding: 0;
@@ -127,6 +127,7 @@ img {
 /** Logo **/
 #logo {
 	float: left;
+	margin: 27px 0 0 45px;
 }
 #primary_nav_wrap {
 	margin-top:15px;
@@ -174,7 +175,7 @@ img {
 	position:absolute;
 	top:100%;
 	left:0;
-	background:#eddcbe;
+	background:#edd7a8;
 	padding:0;
 }
 
@@ -209,7 +210,7 @@ img {
 	list-style:none;
 	position:relative;
 	float:left;
-	margin:115px 0 0 240px;
+	margin:115px 0 0 225px;
 	padding:0;
 	/*background-color: #fff;
 	border-radius: 2px;*/
@@ -221,7 +222,7 @@ img {
 	text-decoration:none;
 	font-size:22px;
 	padding:0 15px;
-	font-family:'Jural';
+	font-family:'Jurar';
 	font-weight: normal;
 }
 
@@ -308,10 +309,10 @@ img {
 #contents div.body h1 {
 	color: #640120;
 	font-family: "Juram";
-	font-size: 27px;
+	font-size: 20px;
 	font-weight: normal;
 	margin: 0 0 10px 0;
-	text-transform: uppercase;
+	/*text-transform: uppercase;*/
 }
 #contents div.body h2 {
 	color: #640120;
@@ -843,29 +844,25 @@ div.blog a.more:hover {
 	margin: 0 0 0 0; 
 }
 #sidebar div.body {
-	background-position: 0 -7px;
+	/*background-position: 0 -7px;*/
 	min-height: 100px;
 	width: 940px;
-	padding: 10px 0 0 32px;
-	text-align: center;
+	padding: 10px 0 0 10px;
 }
 #sidebar div.body img{
 	width: 940px;
 	height: 336px;
 	padding: 0 0 0 0;
-	-webkit-box-shadow: 0px 0px 0px rgba(0,0,0,.8);
-	-moz-box-shadow: 0px 0px 0px rgba(0,0,0,.8);
-	box-shadow: 0px 0px 3px rgba(0,0,0,.8);
-	border-radius: 3px;
 }
 #sidebar div.contact {
 	background: none;
 	height: auto;
-	width: 940px;
-	padding: 15px 0 0 0;
+	width: 470px;
+	padding: 0 0 0 0;
 	-webkit-box-shadow: 0px 0px 0px rgba(0,0,0,.8);
 	-moz-box-shadow: 0px 0px 0px rgba(0,0,0,.8);
 	box-shadow: 0px 0px 0px rgba(0,0,0,.8);
+	text-align: left;
 }
 #sidebar div.contact a{
 	margin: 0 0 0 -80px;
@@ -874,26 +871,26 @@ div.blog a.more:hover {
 	margin: 0 40px 0 -35px;
 }
 #sidebar div.contact p {
-	text-align: center;
-	color: #640120;
+	text-align: left;
+	color: #000;
 	font-family: 'Jural';
-	font-size: 16px;
+	font-size: 18px;
 	font-weight: normal;
-	text-transform: uppercase;
-	margin: 10px 0 20px 0;
+	/*text-transform: uppercase;*/
+	margin: 10px 0 10px 0;
 }
 #sidebar div.contact h2 {
-	color: #640120;
+	color: #000;
 	font-family: 'Jural';
 	display: block;
-	font-size: 20px;
+	font-size: 18px;
 	font-weight: normal;
-	line-height: 25px;
+	line-height: 20px;
 	padding: 0;
 	margin: 0;
 }
 #contents #about, #contents #contact {
-	height: 500px;
+	height: 550px;
 	width: 940px;
 	padding: 0;
 	/*-webkit-box-shadow: 0px 0px 5px rgba(0,0,0,.8);
