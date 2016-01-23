@@ -222,8 +222,8 @@ img {
 	text-decoration:none;
 	font-size:22px;
 	padding:0 15px;
-	font-family:'Jurar';
-	font-weight: normal;
+	font-family:'Juram';
+	font-weight: bold;
 }
 
 #primary_nav_wrap ul li {
@@ -308,9 +308,9 @@ img {
 }
 #contents div.body h1 {
 	color: #640120;
-	font-family: "Juram";
-	font-size: 20px;
-	font-weight: normal;
+	font-family: "Jurar";
+	font-size: 22px;
+	font-weight: bold;
 	margin: 0 0 10px 0;
 	/*text-transform: uppercase;*/
 }
@@ -621,8 +621,8 @@ div.slogan {
 #contents div.slogan p {
 	color: #640120;
 	padding: 40px 0 0;
-	font-size: 20px;
-	font-family:'Jural';
+	font-size: 19px;
+	font-family:'Juram';
 	text-align: center;
 }
 div.contact img {
@@ -633,13 +633,11 @@ div.contact img2 {
 }
 #contents div.contact p {
 	color: #640120;
-	font-family: 'Jural';
-	font-size: 15px;
+	font-family: 'Juram';
+	font-size: 18px;
 	padding-bottom: 0;
 	font-weight: normal;
-	/*text-transform: uppercase;*/
 	margin: 0 0 0 130px;
-	/*text-align: center;*/
 }
 #contents div.details h1 {
 	color: #640120;
@@ -873,15 +871,14 @@ div.blog a.more:hover {
 #sidebar div.contact p {
 	text-align: left;
 	color: #000;
-	font-family: 'Jural';
+	font-family: 'Juram';
 	font-size: 18px;
 	font-weight: normal;
-	/*text-transform: uppercase;*/
 	margin: 10px 0 10px 0;
 }
 #sidebar div.contact h2 {
 	color: #000;
-	font-family: 'Jural';
+	font-family: 'Juram';
 	display: block;
 	font-size: 18px;
 	font-weight: normal;
