@@ -3,7 +3,7 @@
 <!--All code, images, contents that differs from original template is property of RHR Architect-->
 <!--All fonts and icons in this website are used acording to license agreement detailed in footer.-->
 <!--Acording license agreement published by freewebsitetemplates.com-->
-<!--Copyrigth 2015 - RHR Architect*/
+<!--Copyrigth 2016 - RHR Architect*/
 
 @font-face {
 	font-family: 'Juram';
@@ -127,7 +127,7 @@ img {
 /** Logo **/
 #logo {
 	float: left;
-	margin: 27px 0 0 45px;
+	margin: 17px 0 0 45px;
 }
 #primary_nav_wrap {
 	margin-top:15px;
@@ -210,10 +210,8 @@ img {
 	list-style:none;
 	position:relative;
 	float:left;
-	margin:115px 0 0 225px;
+	margin:115px 0 0 230px;
 	padding:0;
-	/*background-color: #fff;
-	border-radius: 2px;*/
 }
 
 #primary_nav_wrap ul a {
@@ -361,7 +359,7 @@ img {
 	border-color: #fff;
 	border-width: 0px;
 	border-style: none solid solid;
-	margin: 0 0 0 20px;
+	margin: 0 0 0 5px;
 	position: relative;
 	/*-webkit-box-shadow: 0px 0px 5px rgba(0,0,0,.8);
 	-moz-box-shadow: 0px 0px 5px rgba(0,0,0,.8);
@@ -690,7 +688,7 @@ div.contact p b.email {
 }
 #contents .bodygal h3{
 	color: #000000;
-	font-family: 'Jural';
+	font-family: 'Juram';
 	font-size: 15px;
 	font-weight: normal;
 	line-height: 24px;
