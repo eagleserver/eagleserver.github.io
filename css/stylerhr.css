@@ -129,6 +129,10 @@ img {
 	float: left;
 	margin: 17px 0 0 45px;
 }
+#slogan {
+	float: left;
+	padding: 70px 0 0 180px;
+}
 #primary_nav_wrap {
 	margin-top:15px;
 }
@@ -210,7 +214,7 @@ img {
 	list-style:none;
 	position:relative;
 	float:left;
-	margin:115px 0 0 230px;
+	margin:1px 0 0 230px;
 	padding:0;
 }
 
@@ -598,10 +602,12 @@ div.contact {
 	width: 468px;
 	padding: 0;
 	background-color: #fff;
-	-webkit-box-shadow: 0px 0px 5px rgba(0,0,0,.8);
-	-moz-box-shadow: 0px 0px 5px rgba(0,0,0,.8);
-	box-shadow: 0px 0px 5px rgba(0,0,0,.8);
 	text-align: center;
+	border-left: 2px solid #CCC4C7;
+	border-top: 6px solid #CCC4C7;
+	/*-webkit-box-shadow: 0px 0px 5px rgba(0,0,0,.8);
+	-moz-box-shadow: 0px 0px 5px rgba(0,0,0,.8);
+	box-shadow: 0px 0px 5px rgba(0,0,0,.8);*/
 	border-radius: 5px;
 }
 div.slogan {
@@ -611,15 +617,17 @@ div.slogan {
 	padding: 0;
 	background-color: #fff;
 	text-align: center;
-	-webkit-box-shadow: 0px 0px 5px rgba(0,0,0,.8);
+	border-right: 2px solid #CCC4C7;
+	border-top: 6px solid #CCC4C7;
+	/*-webkit-box-shadow: 0px 0px 5px rgba(0,0,0,.8);
 	-moz-box-shadow: 0px 0px 5px rgba(0,0,0,.8);
-	box-shadow: 0px 0px 5px rgba(0,0,0,.8);
+	box-shadow: 0px 0px 5px rgba(0,0,0,.8);*/
 	border-radius: 5px;
 }
 #contents div.slogan p {
 	color: #640120;
-	padding: 40px 0 0;
-	font-size: 19px;
+	padding: 6px 0 0;
+	font-size: 18px;
 	font-family:'Juram';
 	text-align: center;
 }
@@ -853,9 +861,8 @@ div.blog a.more:hover {
 	height: auto;
 	width: 470px;
 	padding: 0 0 0 0;
-	-webkit-box-shadow: 0px 0px 0px rgba(0,0,0,.8);
-	-moz-box-shadow: 0px 0px 0px rgba(0,0,0,.8);
-	box-shadow: 0px 0px 0px rgba(0,0,0,.8);
+    border-left: 0px solid #CCC4C7;
+    border-top: 0px solid #CCC4C7;
 	text-align: left;
 }
 #sidebar div.contact a{
@@ -1221,7 +1228,7 @@ div.blog a.more:hover {
 	margin: -3px 0 3px;
 }
 #links {
-	background: url(../images/separator-darkline.png) repeat-x left bottom;
+	/*background: url(../images/separator-darkline.png) repeat-x left bottom;*/
 	color: #fff;
 	display: inline-block;
 	width: 940px;
@@ -1272,7 +1279,7 @@ div.blog a.more:hover {
 #links .showroom p a:hover {
 	color: #241b18;
 }
-#newsletter {
+/*#newsletter {
 	background: url(../images/separator-dark.png) repeat-x left bottom;
 	width: 284px;
 	margin: 0 0 16px 6px;
@@ -1290,7 +1297,7 @@ div.blog a.more:hover {
 	margin: 0 0 6px;
 	padding: 0 4px;
 *margin-left: -6px; /** Needed for IE7 **/
-}
+/*}
 #newsletter input.btn2 {
 	color: #fff;
 	width: 83px;
@@ -1329,7 +1336,7 @@ div.blog a.more:hover {
 }
 #connect a.instagram:hover {
 	background-position: 0 -235px;
-}
+}*/
 #footer ul.navigation {
 	float: right;
 	display: inline-block;
