@@ -1,9 +1,9 @@
 
 /*  Website Template by freewebsitetemplates.com-->
-<!--All code, images, contents that differs from original template is property of RHR Architect-->
+<!--All code, images, contents that differs from original template is property of RHR Architect,LLC.-->
 <!--All fonts and icons in this website are used acording to license agreement detailed in footer.-->
 <!--Acording license agreement published by freewebsitetemplates.com-->
-<!--Copyrigth 2016 - RHR Architect*/
+<!--Copyrigth 2016 - RHR Architect, LLC.*/
 
 @font-face {
 	font-family: 'Juram';
@@ -445,7 +445,7 @@ img {
 	list-style: none;
 	width: 940px;
 	height: auto;
-	margin: 10px 0;
+	margin: 25px 0;
 	-webkit-box-shadow: 0px 0px 5px rgba(0,0,0,.8);
 	-moz-box-shadow: 0px 0px 5px rgba(0,0,0,.8);
 	box-shadow: 0px 0px 5px rgba(0,0,0,.8);
@@ -599,37 +599,28 @@ img {
 div.contact {
 	float: right;
 	height: 100px;
-	width: 468px;
+	width: 466px;
 	padding: 0;
+	margin: 20px 0 20px 0;
 	background-color: #fff;
 	text-align: center;
-	border-left: 2px solid #CCC4C7;
-	border-top: 6px solid #CCC4C7;
-	/*-webkit-box-shadow: 0px 0px 5px rgba(0,0,0,.8);
-	-moz-box-shadow: 0px 0px 5px rgba(0,0,0,.8);
-	box-shadow: 0px 0px 5px rgba(0,0,0,.8);*/
-	border-radius: 5px;
+	border-left: 4px solid #8f8484;
 }
 div.slogan {
 	float: left;
 	height: 100px;
-	width: 468px;
+	width: 466px;
 	padding: 0;
+	margin: 20px 0 20px 0;
 	background-color: #fff;
-	text-align: center;
-	border-right: 2px solid #CCC4C7;
-	border-top: 6px solid #CCC4C7;
-	/*-webkit-box-shadow: 0px 0px 5px rgba(0,0,0,.8);
-	-moz-box-shadow: 0px 0px 5px rgba(0,0,0,.8);
-	box-shadow: 0px 0px 5px rgba(0,0,0,.8);*/
-	border-radius: 5px;
+	border-right: 4px solid #8f8484;
 }
 #contents div.slogan p {
 	color: #640120;
-	padding: 6px 0 0;
+	padding: 6px 130px 0 0px;
 	font-size: 18px;
 	font-family:'Juram';
-	text-align: center;
+	text-align: right;
 }
 div.contact img {
 	margin: 0 -35px 25px 45px;
@@ -861,6 +852,7 @@ div.blog a.more:hover {
 	height: auto;
 	width: 470px;
 	padding: 0 0 0 0;
+	margin: 10px 0 10px 0;
     border-left: 0px solid #CCC4C7;
     border-top: 0px solid #CCC4C7;
 	text-align: left;
