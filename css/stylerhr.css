@@ -20,7 +20,7 @@
 body {
 	background-color: #fff;
 	font-family: "Jural";
-	margin: 15px 0 0 0;
+	margin: 0;
 }
 img {
 	border: 0;
@@ -126,7 +126,7 @@ img {
 /** Logo **/
 #logo {
 	float: left;
-	margin: 17px 0 0 45px;
+	margin: 17px 0 0 48px;
 }
 #slogan {
 	float: left;
@@ -178,7 +178,7 @@ img {
 	position:absolute;
 	top:100%;
 	left:0;
-	background:#edd7a8;
+	background:#BCC8EF;
 	padding:0;
 }
 
@@ -262,7 +262,7 @@ img {
 	width:180px;
 	text-align: left;
 /*added*/
-	border-top: 1px solid #640120;
+	border-top: 1px inset #040E2D;
 	display: block;
 	list-style: none;
 	margin: 0;
@@ -272,7 +272,7 @@ img {
 #primary_nav_wrap ul ul a {
 	line-height:120%;
 	display:block;
-	color:#640120;
+	color:#040E2D;
 	text-decoration:none;
 	font-size:17px;
 	font-family:'Jural';
@@ -309,9 +309,9 @@ img {
 	padding: 10px 0 0 20px;
 }
 #contents div.body h1 {
-	color: #640120;
-	font-family: "Jurar";
-	font-size: 22px;
+	color: #BCC8EF;
+	font-family: "Verdana";
+	font-size: 20px;
 	font-weight: bold;
 	margin: 0 0 10px 0;
 	/*text-transform: uppercase;*/
@@ -335,7 +335,7 @@ img {
 	text-align: justify;
 }
 #contents p1 {
-	color: #000000;
+	color: #040E2D;
 	font-family:'Jurar';
 	font-size: 16px;
 	line-height: 24px;
@@ -605,8 +605,6 @@ div.contact {
 	margin: 20px 0 20px 0;
 	background-color: #fff;
 	text-align: center;
-	/*border-left: 4px solid #8f8484;*/
-	border-left: 4px solid #BCC8EF;
 }
 div.slogan {
 	float: left;
@@ -615,8 +613,6 @@ div.slogan {
 	padding: 0;
 	margin: 20px 0 20px 0;
 	background-color: #fff;
-	/*border-right: 4px solid #8f8484;*/
-	border-right: 4px solid #BCC8EF;
 }
 #contents div.slogan p {
 	/*color: #640120;*/
@@ -642,9 +638,9 @@ div.contact img2 {
 	margin: 0 0 0 130px;
 }
 #contents div.details h1 {
-	color: #640120;
-	font-family: 'Juram';
-	font-size: 20px;
+	color: #BCC8EF;
+	font-family: 'Verdana';
+	font-size: 17px;
 	font-weight: normal;
 	line-height: 24px;
 	margin: 0 0 10px 0;
@@ -652,9 +648,9 @@ div.contact img2 {
 	text-transform: uppercase;
 }
 #contents div.details h2 {
-	color: #640120;
-	font-family: 'Juram';
-	font-size: 30px;
+	color: #BCC8EF;
+	font-family: 'Verdana';
+	font-size: 25px;
 	font-weight: normal;
 	line-height: 24px;
 	margin: 0 0 0 0;
@@ -662,7 +658,7 @@ div.contact img2 {
 	text-transform: uppercase;
 }
 div.contact p b {
-	color: #640120;
+	color: #040E2D;
 	font-family: 'Juram';
 	font-size: 18px;
 	font-weight: normal;
@@ -681,9 +677,9 @@ div.contact p b.email {
 	height: auto;
 }
 #contents .bodygal h4{
-	color: #640120;
-	font-family: 'Juram';
-	font-size: 25px;
+	color: #BCC8EF;
+	font-family: 'Verdana';
+	font-size: 22px;
 	font-weight: normal;
 	line-height: 24px;
 	margin: 10px 0 15px 0;
@@ -691,7 +687,7 @@ div.contact p b.email {
 	text-transform: uppercase;
 }
 #contents .bodygal h3{
-	color: #000000;
+	color: #040E2D;
 	font-family: 'Juram';
 	font-size: 15px;
 	font-weight: normal;
@@ -877,7 +873,7 @@ div.blog a.more:hover {
 	margin: 10px 0 10px 0;
 }
 #sidebar div.contact h2 {
-	color: #000;
+	color: #040E2D;
 	font-family: 'Juram';
 	display: block;
 	font-size: 18px;
@@ -1435,10 +1431,9 @@ div#slidermr figure {
 	height: 500px;
 	width: 940px;
 	margin: auto;
-	-webkit-box-shadow: 0px 0px 5px rgba(0,0,0,.8);
-	-moz-box-shadow: 0px 0px 5px rgba(0,0,0,.8);
-	box-shadow: 0px 0px 5px rgba(0,0,0,.8);
-	margin-top: 0px;
+	-webkit-box-shadow: 3px 3px 6px rgba(0,0,0,.8);
+	-moz-box-shadow: 3px 3px 6px rgba(0,0,0,.8);
+	box-shadow: 3px 3px 6px rgba(0,0,0,.8);
 	position: relative;
 }
 
@@ -1526,7 +1521,7 @@ div#slidermr figure {
 label.arrows {
     font-family: 'Juram';
     font-size: 30px;
-    color: #640120;
+    color: #040E2D;
     position: absolute;
     top: 50%;
     margin-top: -25px;
