@@ -615,12 +615,11 @@ div.slogan {
 	background-color: #fff;
 }
 #contents div.slogan p {
-	/*color: #640120;*/
+	text-align: left;
 	color: #040E2D;
-	padding: 6px 130px 0 0px;
+	padding: 6px 130px 0 138px;
 	font-size: 18px;
 	font-family:'Juram';
-	text-align: right;
 }
 div.contact img {
 	margin: 0 -35px 25px 45px;
@@ -629,7 +628,6 @@ div.contact img2 {
 	margin: 0 0 0 0;
 }
 #contents div.contact p {
-	/*color: #640120;*/
 	color: #040E2D;
 	font-family: 'Juram';
 	font-size: 18px;
